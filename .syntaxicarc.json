@@ -2,6 +2,7 @@
   "target": "TypeScript",
   "grammarsRoot": "./src/grammars",
   "sourceOutputRoot": "./src/generated",
+  "eslintConfig": "./.eslintrc.js",
   "grammars": [
     {
       "name": "Sparql",

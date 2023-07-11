@@ -66,8 +66,4 @@ const getConfig = (entryFile, outputFile) => ({
   },
 });
 
-module.exports = [
-  getConfig('./src/latest/worker.ts', 'latest.worker.js'),
-  getConfig('./src/pg-schema/worker.ts', 'pg-schema.worker.js'),
-  getConfig('./src/index.ts', 'index.js'),
-];
+module.exports = [getConfig('./src/workers/sparql/worker.ts', 'sparql.worker.js')];
