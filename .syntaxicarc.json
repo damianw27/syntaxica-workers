@@ -1,0 +1,13 @@
+{
+  "target": "TypeScript",
+  "grammarsRoot": "./src/grammars",
+  "sourceOutputRoot": "./src/generated",
+  "grammars": [
+    {
+      "name": "Sparql",
+      "fileNames": [
+        "Sparql.g4"
+      ]
+    }
+  ]
+}
