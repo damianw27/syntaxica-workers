@@ -8,7 +8,7 @@ const getConfig = (entryFile, outputFile) => ({
   mode: 'production',
   entry: entryFile,
   output: {
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, 'workers'),
     filename: outputFile,
     globalObject: 'this',
     library: {
