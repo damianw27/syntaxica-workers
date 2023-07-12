@@ -4,7 +4,7 @@
     "versions": [
       {
         "name": "latest",
-        "url": "https://raw.githubusercontent.com/damianw27/syntaxica-workers/main/workers/sparql.worker.js"
+        "url": "https://damianw27.github.io/syntaxica-workers/sparql.worker.js"
       }
     ]
   }
