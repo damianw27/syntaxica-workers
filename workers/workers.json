@@ -1,3 +1,11 @@
-{
-  "SPARQL": "sparql.worker.json"
-}
+[
+  {
+    "name": "SPARQL",
+    "versions": [
+      {
+        "name": "latest",
+        "url": "https://raw.githubusercontent.com/damianw27/syntaxica-workers/main/workers/sparql.worker.js"
+      }
+    ]
+  }
+]
