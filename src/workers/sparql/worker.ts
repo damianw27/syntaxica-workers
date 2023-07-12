@@ -91,9 +91,9 @@ const getInitializationInfo = (event: GrammarEvent): void => {
 };
 
 const operations: Record<GrammarEventType, (event: GrammarEvent) => void> = {
-  [GrammarEventType.Parse]: getParseResult,
-  [GrammarEventType.Utilities]: getUtilities,
-  [GrammarEventType.Initialize]: getInitializationInfo,
+  'grammar/parse': getParseResult,
+  'grammar/utilities': getUtilities,
+  'grammar/initialize': getInitializationInfo,
 };
 
 onmessage = ({ data }: MessageEvent<GrammarEvent>): void => {

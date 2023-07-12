@@ -155,22 +155,17 @@
   resolved "https://registry.yarnpkg.com/@sinclair/typebox/-/typebox-0.27.8.tgz#6667fac16c436b5434a387a34dedb013198f6e6e"
   integrity sha512-+Fj43pSMwJs4KRrH/938Uf+uAELIgVBmQzg/q1YG10djyfA3TnrU8N8XzqCh/okZdszqBQTZf96idMfE5lnwTA==
 
-"@syntaxica/antlr@^4.12.0":
-  version "4.12.0"
-  resolved "https://registry.yarnpkg.com/@syntaxica/antlr/-/antlr-4.12.0.tgz#101ec0792d2e92c029909ddd0b4f39951dda6a3d"
-  integrity sha512-3hjecHx4ylecPmW29rzwkLchP3LLA4G/6g55GAhGTeXVyO5+Rg3WX6F4fGEf/h9QSfAmhGG7Vo+YFRvCzE2MZQ==
-
 "@syntaxica/antlr@^4.12.0-2":
   version "4.12.0-2"
   resolved "https://registry.yarnpkg.com/@syntaxica/antlr/-/antlr-4.12.0-2.tgz#8d0a19f5889313b448c90f913bccbdbc90f24d6b"
   integrity sha512-0mIFOI7spnQFM2XGWBw7/EfNizrF/9DjIMjpI2blxwlsau5hPKm37Z/fumwRfVJCwf1Vslozb4cZGnbOc28Nfw==
 
-"@syntaxica/lib@^0.0.11":
-  version "0.0.11"
-  resolved "https://registry.yarnpkg.com/@syntaxica/lib/-/lib-0.0.11.tgz#60b1e1fccad986796d6d5b81b368ce4d73e859c5"
-  integrity sha512-RQ6auGXWM7r6TK6km6fDqIpOxtifht8Oo/ClXq61XP+QfwrCO6LgJarmalpOrgoGFwQ85YryNsC85+gCbsbmtg==
+"@syntaxica/lib@^0.0.12":
+  version "0.0.12"
+  resolved "https://registry.yarnpkg.com/@syntaxica/lib/-/lib-0.0.12.tgz#40d9b76f46e07349ead2b372e239b5cd564f43c5"
+  integrity sha512-AZnSY/a/kg8+Mr2EeK5l/Svd2Xzr8x9VNT1iiQRM1dncVxL9/rrbfMdcxvR+iXC9PS17/Yc9meOdwuRGzfCNZg==
   dependencies:
-    "@syntaxica/antlr" "^4.12.0"
+    "@syntaxica/antlr" "^4.12.0-2"
     commander "^11.0.0"
 
 "@types/eslint-scope@^3.7.3":

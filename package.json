@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@syntaxica/antlr": "^4.12.0-2",
-    "@syntaxica/lib": "^0.0.11"
+    "@syntaxica/lib": "^0.0.12"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.13.0",
